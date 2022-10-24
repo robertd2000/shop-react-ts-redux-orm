@@ -1,0 +1,17 @@
+.products_container {
+  grid-column: 3/4;
+}
+
+.products {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  grid-auto-rows: auto;
+
+  grid-gap: 1rem;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
